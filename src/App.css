@@ -4,3 +4,66 @@
     padding: 2rem;
     text-align: center;
 }
+
+#main {
+    display: grid;
+    grid-template-columns: repeat(2, fit);
+    grid-template-rows: 130px 1fr;
+    align-items: center;
+    text-align: start;
+    background-color: rgb(30, 30, 30);
+    padding: 30px;
+    border-radius: 50px;
+    min-width: 540px;
+}
+
+h1 {
+    color: rgb(26, 198, 106);
+}
+
+#footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 10px 0;
+    background-color: rgb(30, 30, 30);
+}
+
+#scoreboard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#scoreboard > p {
+    font-size: 28px;
+    font-weight: 400;
+    margin: 8px 0;
+}
+
+#cards {
+    grid-column: 1 / 3;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(50px, 1fr));
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.animal-card {
+    background-color: rgb(85, 132, 161);
+    padding: max(5px, 15%);
+    border-radius: 8px;
+}
+
+.animal-card:hover {
+    background-color: rgb(75, 116, 141);
+}
+
+.animal-card:active {
+    background-color: rgb(64, 99, 120);
+}
+
+.card-img {
+    width: 100%;
+}

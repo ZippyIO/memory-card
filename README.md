@@ -6,7 +6,9 @@ The game has 15 cards that are randomly shuffled each play, if you click on a ca
 
 This project was built with [ReactJS](https://reactjs.org/) to solidify my knowledge working with React Props, State & Hooks as an assignment in [The Odin Project](https://www.theodinproject.com/) curriculum - [Full Stack JavaScript](https://www.theodinproject.com/paths/full-stack-javascript).
 
-**Demo: [Memory Card Game](https://zippyio.github.io/memory-card/)**
+# Demo
+
+**Current Build: [Memory Card Game](https://zippyio.github.io/memory-card/)**
 
 ## Screenshots
 

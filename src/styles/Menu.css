@@ -1,0 +1,22 @@
+#menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    background-color: #1ac66a;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.cardset-button {
+    color: #fff;
+    background-color: #435382;
+}
+
+.cardset-button:hover {
+    background-color: #3d4b76;
+}
+
+.cardset-button:active {
+    background-color: hsl(225, 32%, 28%);
+}

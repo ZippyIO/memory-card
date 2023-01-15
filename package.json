@@ -5,7 +5,7 @@
     "type": "module",
     "homepage": "https://github.com/ZippyIO/memory-card/",
     "scripts": {
-        "dev": "vite",
+        "dev": "vite --host",
         "build": "vite build",
         "preview": "vite preview",
         "deploy": "gh-pages -d dist"

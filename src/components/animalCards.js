@@ -10,10 +10,10 @@ import PandaImg from '../assets/animals/panda.png';
 import ParrotImg from '../assets/animals/parrot.png';
 import PigImg from '../assets/animals/pig.png';
 import RaccoonImg from '../assets/animals/raccoon.png';
-
 import SnakeImg from '../assets/animals/snake.png';
 import TigerImg from '../assets/animals/tiger.png';
 import WolfImg from '../assets/animals/wolf.png';
+
 export const ANIMAL_CARDS = [
     {
         type: 'alpaca',
